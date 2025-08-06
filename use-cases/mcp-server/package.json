@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
+    "dev": "node init && wrangler dev",
+    "start": "node init && wrangler dev",
     "cf-typegen": "wrangler types",
     "type-check": "tsc --noEmit",
     "test": "vitest",
